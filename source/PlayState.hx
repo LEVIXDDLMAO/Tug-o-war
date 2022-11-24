@@ -420,6 +420,7 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+			
 			case 'cloudStage':
 				var ba:BGSprite = new BGSprite('BG/BG', 200, 10);
 				ba.scale.set(2, 2);
