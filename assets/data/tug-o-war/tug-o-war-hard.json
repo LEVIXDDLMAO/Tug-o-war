@@ -5892,7 +5892,7 @@
 			}
 		],
 		"gfVersion": "bf",
-		"player3": null,
+		"player3": "dumbBF",
 		"splashSkin": "noteSplashes",
 		"song": "Tug-o-war",
 		"stage": "cloudStage",
