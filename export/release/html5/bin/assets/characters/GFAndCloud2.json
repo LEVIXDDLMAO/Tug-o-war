@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-70,
+				-110
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "DOWN Cloud",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-46,
+				-89
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "LEFT Cloud",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-197,
+				-64
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "RIGHT Cloud",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-52,
+				-69
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "UP Cloud",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-254,
+				-86
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "DOWN gf"
+		},
+		{
+			"offsets": [
+				-200,
+				25
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "UP gf"
+		},
+		{
+			"offsets": [
+				-263,
+				-38
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "LEFT gf"
+		},
+		{
+			"offsets": [
+				-264,
+				-51
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "RIGHT gf"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/GFAndCloud",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "gf",
+	"flip_x": true,
+	"healthbar_colors": [
+		246,
+		0,
+		100
+	],
+	"camera_position": [
+		-310,
+		170
+	],
+	"sing_duration": 4,
+	"scale": 0.8
+}
