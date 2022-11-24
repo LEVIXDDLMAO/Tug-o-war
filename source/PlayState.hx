@@ -216,6 +216,8 @@ class PlayState extends MusicBeatState
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
 
+	var ba:BGSprite;
+
 	public var songScore:Int = 0;
 	public var songHits:Int = 0;
 	public var songMisses:Int = 0;
@@ -418,6 +420,9 @@ class PlayState extends MusicBeatState
 					stageCurtains.updateHitbox();
 					add(stageCurtains);
 				}
+			case 'cloudStage':
+				var ba:BGSprite = new BGSprite('BG/BG', 200, 10);
+				ba.scale.set(2, 2);
 
 			case 'spooky': //Week 2
 				if(!ClientPrefs.lowQuality) {
